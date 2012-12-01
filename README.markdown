@@ -10,7 +10,7 @@ first of all, clone this repo and all its subrepos:
 
 then, add this to you vimrc:
 
-   so ~/vimfiles/basic.vim
-   so ~/vimfiles/plugins.vim
+    so ~/vimfiles/basic.vim
+    so ~/vimfiles/plugins.vim
 
 Done!
