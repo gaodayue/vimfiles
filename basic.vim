@@ -119,7 +119,6 @@ set ffs=unix,dos,mac
 " Set font on windows
 if has("win32")
     set guifont=Consolas:h10
-    set guifontwide=YouYuan
 endif
 
 

@@ -18,4 +18,25 @@ then, add this to you vimrc (start `vim`, then `:e $MYVIMRC` will open vimrc):
     so ~/vimfiles/plugins.vim
     ```
 
+if you are using gvim on windows and want to show chinese correctly, add the following to vimrc
+
+    ```vim
+    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+    " => Chinese setting for gvim
+    """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+    if has("win32")
+        set fileencoding=chinese
+    else
+        set fileencoding=utf-8
+    endif
+
+    " for chinese menu
+    so $VIMRUNTIME/delmenu.vim
+    so $VIMRUNTIME/menu.vim
+
+    " for chinese messages
+    language messages zh_CN.utf-8
+
+    ```
+
 Done! Work both on Linux and Windows.
